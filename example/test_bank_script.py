@@ -1,6 +1,6 @@
 B=25
 print("\n"+("*"*B)+"\n"+"Welcome to Banco Popular!\n"+"\n"+("*"*B))
-print("\n"+("-"*B)+"\nAccount\nSetup\n"+("-"*B)+"\n")
+print("\n"+("-"*B)+"\nAccount Setup\n"+("-"*B)+"\n")
 u=input("Account name:")
 k=round(float(input("Starting balance:$")), 2)
 print(f"\nWelcome new account member!\nAccount {u} created with starting balance:${k:.2f}")
